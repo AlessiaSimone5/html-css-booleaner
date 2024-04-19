@@ -55,12 +55,14 @@ li {
 
 .spazio {
     padding-right: 250px;
+    text-align: left;
 }
 
 .colonna1 {
     background-color: #4eb5ff;
     color: white;
     font-weight: 1000;
+    font-size: 13px;
 }
 
 .spazio2 {
