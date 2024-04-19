@@ -1,3 +1,76 @@
-head {
-    background-color: blue;
+header {
+    background-color: #9cd6f4;
+    padding: 45px;
+}
+
+header .immagine {
+    width: 190px;
+    height: 40px;
+    margin-left: -45px;
+}
+
+#cambiocolor {
+    color: gray;
+    margin-top: -25px;
+}
+
+strong {
+    font-weight: normal;
+    color: #4eb5ff;
+}
+
+p div {
+    color: gray;
+    font-size: 20px;
+
+}
+
+main div {
+    color: gray;
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.descrizione {
+    font-family: unset;
+    font-size: 9px;
+    margin-top: 0px;
+}
+
+.descrizione2 {
+    font-family: unset;
+    font-size: 9px;
+    margin-top: -10px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.spazio {
+    padding-right: 250px;
+}
+
+.colonna1 {
+    background-color: #4eb5ff;
+    color: white;
+    font-weight: 1000;
+}
+
+.spazio2 {
+    padding-right: 600px;
+}
+
+table {
+    font-size: 13px;
+}
+
+.colonna2 {
+    background-color: #9cd7f468;
 }
