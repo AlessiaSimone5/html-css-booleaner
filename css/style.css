@@ -1,78 +1,79 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
 header {
     background-color: #9cd6f4;
     padding: 45px;
+    background-image: url(../img/pattern.png);
+    background-size: 30%;
 }
 
-header .immagine {
-    width: 190px;
-    height: 40px;
-    margin-left: -45px;
+.logo {
+    height: 45px;
 }
 
-#cambiocolor {
+main {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    line-height: 48px;
+}
+
+.author-date {
     color: gray;
-    margin-top: -25px;
+    margin-bottom: 20px;
 }
 
-strong {
+.author .name {
     font-weight: normal;
     color: #4eb5ff;
 }
 
-p div {
-    color: gray;
-    font-size: 20px;
+.author-date .date {
+    font-size: 12px;
 
 }
 
-main div {
-    color: gray;
-    font-size: 10px;
-    margin-top: -15px;
+.images .caption {
+    font-size: 12px;
 }
 
-.descrizione {
-    font-family: unset;
-    font-size: 9px;
-    margin-top: 0px;
+.highlights {
+    background-color: yellow;
 }
 
-.descrizione2 {
-    font-family: unset;
-    font-size: 9px;
-    margin-top: -10px;
-}
-
-p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
-}
-
-li {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
-}
-
-.spazio {
-    padding-right: 250px;
+.content table {
     text-align: left;
 }
 
-.colonna1 {
+.content table thead {
     background-color: #4eb5ff;
     color: white;
-    font-weight: 1000;
-    font-size: 13px;
 }
 
-.spazio2 {
-    padding-right: 600px;
+.content table thead .main-col {
+    width: 50%;
 }
 
-table {
-    font-size: 13px;
+.content table tbody .odd {
+    background-color: #dfe5f2;
 }
 
-.colonna2 {
-    background-color: #9cd7f468;
+footer {
+    background-color: rgb(31, 31, 81);
+    color: white;
+    text-align: center;
+    padding: 15px;
+
 }
